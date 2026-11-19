@@ -22,6 +22,14 @@ export default function LocationsPage() {
 
   const hubs = [
     {
+      city: 'Maharashtra Hub (Mumbai & Pune)',
+      address: 'Plot C-12, TTC Industrial Area, Turbhe MIDC, Navi Mumbai / Bhosari MIDC, Pune, Maharashtra 400705',
+      coverage: 'Mumbai City, Mumbai Suburban, Pune, Thane, Navi Mumbai, Kalyan-Dombivli, Pimpri-Chinchwad, Panvel, Nashik',
+      turnaround: 'Same-day doorstep flatbed collection across MMR & Pune within 3 to 4 hours',
+      towingFleet: '14 GPS-tracked hydraulic winch flatbeds & heavy carriers',
+      helpline: '+91 9873 528 080',
+    },
+    {
       city: 'Delhi NCR Hub (Noida & Delhi)',
       address: 'Suite 402, Signature Tower, Sector 62, Noida, Gautam Buddha Nagar, UP 201301',
       coverage: 'South Delhi, East Delhi, West Delhi, North Delhi, Noida, Greater Noida, Ghaziabad',
@@ -91,7 +99,7 @@ export default function LocationsPage() {
             </h1>
             <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
               Operating a verified network of Registered Vehicle Scrapping Facilities (RVSFs) with dedicated
-              GPS-tracked hydraulic flatbed tow fleets across Delhi NCR, Uttar Pradesh, Haryana, Rajasthan, Uttarakhand, and Karnataka.
+              GPS-tracked hydraulic flatbed tow fleets across Maharashtra (Mumbai &amp; Pune), Delhi NCR, Uttar Pradesh, Haryana, Rajasthan, Uttarakhand, and Karnataka.
             </p>
           </div>
         </div>

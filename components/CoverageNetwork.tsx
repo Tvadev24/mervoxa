@@ -68,16 +68,28 @@ export default function CoverageNetwork() {
         'Rewari Belt',
       ],
     },
-    south_west: {
-      name: 'South & Western Hubs',
-      yards: 'Bengaluru Peenya & Pune Industrial RVSFs',
+    maharashtra: {
+      name: 'Maharashtra (Mumbai & Pune)',
+      yards: 'TTC Navi Mumbai & Bhosari MIDC Pune RVSFs',
+      turnaround: 'Same-Day 3 to 4 Hours Pickup',
+      cities: [
+        'Mumbai City & Suburbs',
+        'Pune & Pimpri Chinchwad',
+        'Navi Mumbai & Panvel',
+        'Thane & Kalyan-Dombivli',
+        'Mira Bhayandar & Vasai',
+        'Nashik & Chakan Belt',
+      ],
+    },
+    south: {
+      name: 'South India Hub',
+      yards: 'Bengaluru Peenya Industrial RVSF',
       turnaround: '24 to 48 Hours',
       cities: [
         'Bengaluru (Bangalore)',
         'Mysuru (Mysore)',
-        'Pune & Pimpri Chinchwad',
-        'Navi Mumbai MMR',
-        'Thane Belt',
+        'Hosur Industrial Cluster',
+        'Tumakuru Belt',
       ],
     },
   };
