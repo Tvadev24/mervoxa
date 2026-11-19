@@ -21,7 +21,6 @@ import {
   BookOpen,
   Users,
   ShieldCheck,
-  CheckCircle2,
   ArrowRight,
 } from 'lucide-react';
 
@@ -58,27 +57,6 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-200">
-      {/* Top Advisory Bar - Deep Forest Teal matching Mockup */}
-      <div className="bg-[#042f2e] border-b border-emerald-950/40 text-emerald-100 text-xs py-2 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
-            <span className="truncate text-[11px] sm:text-xs font-medium text-emerald-100">
-              Vehicle Scrapping &amp; Recycling under MoRTH MV Rules 2021 &bull; Direct VAHAN 4.0 CoD &amp; CVS Issuance
-            </span>
-          </div>
-          <div className="hidden md:flex items-center gap-5">
-            <a
-              href="tel:+919873528080"
-              className="flex items-center gap-1.5 text-emerald-300 hover:text-white font-semibold text-xs transition-colors"
-            >
-              <Phone className="w-3 h-3 text-emerald-400" />
-              <span>24/7 RTO Desk - +91 9873 528 080</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main Navigation Bar - Crisp White with Pill CTA Buttons */}
       <nav
         className={`transition-all duration-200 bg-white ${
