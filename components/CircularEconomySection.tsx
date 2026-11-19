@@ -110,25 +110,33 @@ export default function CircularEconomySection() {
         </div>
 
         {/* Impact Bar - Minimal radius */}
-        <div className="mt-8 bg-slate-900 text-white rounded-md p-6 sm:p-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          <div className="border-b md:border-b-0 md:border-r border-slate-800 pb-5 md:pb-0">
-            <div className="font-heading font-extrabold text-3xl sm:text-4xl text-emerald-400">
+        <div className="mt-8 bg-slate-900 text-white rounded-md p-6 sm:p-8 grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+          <div className="border-r border-slate-800 pr-3">
+            <div className="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-emerald-400">
               10,000+
             </div>
             <div className="text-xs font-semibold text-white mt-1">Vehicles Legally Scrapped</div>
             <div className="text-[11px] text-slate-400 mt-0.5">Zero legal disputes, 100% VAHAN closures</div>
           </div>
 
-          <div className="border-b md:border-b-0 md:border-r border-slate-800 pb-5 md:pb-0">
-            <div className="font-heading font-extrabold text-3xl sm:text-4xl text-emerald-400">
+          <div className="lg:border-r border-slate-800 lg:pr-3">
+            <div className="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-emerald-400">
               18,000+ MT
             </div>
             <div className="text-xs font-semibold text-white mt-1">CO₂ Emissions Avoided</div>
             <div className="text-[11px] text-slate-400 mt-0.5">Equivalent to planting 3,20,000 mature trees</div>
           </div>
 
+          <div className="border-r border-slate-800 pr-3">
+            <div className="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-emerald-400">
+              ₹25+ Cr
+            </div>
+            <div className="text-xs font-semibold text-white mt-1">Scrap Revenue Disbursed</div>
+            <div className="text-[11px] text-slate-400 mt-0.5">Direct fair-market value paid to owners</div>
+          </div>
+
           <div>
-            <div className="font-heading font-extrabold text-3xl sm:text-4xl text-emerald-400">
+            <div className="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-emerald-400">
               100%
             </div>
             <div className="text-xs font-semibold text-white mt-1">Upfront Bank Payouts</div>
