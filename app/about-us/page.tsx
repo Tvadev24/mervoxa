@@ -125,9 +125,11 @@ export default function AboutUsPage() {
             </h1>
 
             <p className="mt-5 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-              Mervoxa Ventures Private Limited is a modern vehicle recycling and scrappage platform 
-              engineered to eliminate legal risk for vehicle owners while pioneering zero-landfill circular economy 
-              practices. We combine digital VAHAN 4.0 government integration, instant upfront bank payouts, and 
+              Mervoxa Ventures Private Limited is a modern vehicle recycling and scrappage platform backed by its prominent parent companies{' '}
+              <strong className="text-slate-900 font-semibold">EagleBulls Realty Pvt Ltd</strong> and{' '}
+              <strong className="text-slate-900 font-semibold">J S Enterprises</strong>. 
+              Engineered to eliminate legal risk for vehicle owners while pioneering zero-landfill circular economy 
+              practices, we combine digital VAHAN 4.0 government integration, instant upfront bank payouts, and 
               industrial-grade depollution to provide a completely transparent and hassle-free vehicle scrappage experience.
             </p>
 
@@ -220,9 +222,8 @@ export default function AboutUsPage() {
               </p>
 
               <p className="text-sm text-slate-600 leading-relaxed font-normal">
-                <strong>MERVOXA VENTURES PRIVATE LIMITED</strong> was incorporated to solve this exact vulnerability. 
-                We facilitate vehicle recycling and legal de-registration under the 
-                <strong> Ministry of Road Transport and Highways (MoRTH) Motor Vehicles Rules 2021</strong>.
+                <strong>MERVOXA VENTURES PRIVATE LIMITED</strong> operates under the visionary backing and industrial leadership of its parent companies, <strong>EagleBulls Realty Pvt Ltd</strong> and <strong>J S Enterprises</strong>. We facilitate certified vehicle recycling, end-to-end legal de-registration, and resource recovery under the{' '}
+                <strong>Ministry of Road Transport and Highways (MoRTH) Motor Vehicles Rules 2021</strong>.
               </p>
 
               <div className="space-y-2.5 pt-1">
@@ -237,6 +238,48 @@ export default function AboutUsPage() {
                 <div className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-700 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
                   <span><strong>Up to 25% Road Tax Concession:</strong> Tradable Certificate of Deposit (CoD) unlocking substantial savings on your next vehicle.</span>
+                </div>
+              </div>
+
+              {/* Parent Companies Showcase Block */}
+              <div className="pt-5 border-t border-slate-200">
+                <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-slate-500 mb-3">
+                  Parent Companies &amp; Corporate Heritage
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                  <div className="bg-[#f8faf9] border border-slate-200 rounded-2xl p-4 flex items-start gap-3">
+                    <div className="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0">
+                      <Building2 className="w-5 h-5 text-emerald-700" />
+                    </div>
+                    <div>
+                      <div className="text-[10px] font-mono font-bold text-emerald-700 uppercase tracking-wide">
+                        Parent Company
+                      </div>
+                      <div className="font-heading font-extrabold text-sm text-slate-900 mt-0.5">
+                        EagleBulls Realty Pvt Ltd
+                      </div>
+                      <div className="text-[11px] text-slate-600 mt-1 leading-relaxed">
+                        Anchor parent organization providing strategic corporate governance, land infrastructure, and enterprise stability.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#f8faf9] border border-slate-200 rounded-2xl p-4 flex items-start gap-3">
+                    <div className="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0">
+                      <Building2 className="w-5 h-5 text-emerald-700" />
+                    </div>
+                    <div>
+                      <div className="text-[10px] font-mono font-bold text-emerald-700 uppercase tracking-wide">
+                        Parent Company
+                      </div>
+                      <div className="font-heading font-extrabold text-sm text-slate-900 mt-0.5">
+                        J S Enterprises
+                      </div>
+                      <div className="text-[11px] text-slate-600 mt-1 leading-relaxed">
+                        Industry parent enterprise powering nationwide supply chain networks, material logistics, and operational execution.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -301,7 +344,7 @@ export default function AboutUsPage() {
                 <div className="pt-4 border-t border-slate-100 space-y-2.5 text-xs text-slate-600">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Nationwide Pan-India RVSF collection &amp; dismantling coverage</span>
+                    <span>Nationwide Pan-India collection &amp; dismantling coverage</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
@@ -360,7 +403,7 @@ export default function AboutUsPage() {
               </div>
 
               <div className="mt-8 pt-4 border-t border-emerald-800/80 text-xs font-bold text-emerald-300 flex items-center gap-1.5">
-                <span>Government Authorized &bull; MoRTH Certified</span>
+                <span>MoRTH Compliant &bull; VAHAN 4.0 Integrated</span>
                 <Award className="w-3.5 h-3.5 text-emerald-400" />
               </div>
             </div>
@@ -400,7 +443,7 @@ export default function AboutUsPage() {
                     <th className="py-4 px-6 text-xs font-bold text-emerald-800 bg-emerald-50/70 uppercase tracking-wider w-3/8">
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                        <span>Mervoxa Authorized RVSF</span>
+                        <span>Mervoxa Certified Scrapping</span>
                       </div>
                     </th>
                     <th className="py-4 px-6 text-xs font-bold text-rose-800 bg-rose-50/50 uppercase tracking-wider w-3/8">
