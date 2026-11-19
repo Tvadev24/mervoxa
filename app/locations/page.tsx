@@ -117,7 +117,7 @@ export default function LocationsPage() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-2 text-xs font-bold text-emerald-700 uppercase tracking-wider">
                     <Building className="w-4 h-4 text-emerald-600" />
-                    <span>Authorised RVSF Center</span>
+                    <span>Vehicle Recycling Center</span>
                   </div>
 
                   <h2 className="font-heading font-extrabold text-lg text-slate-900">

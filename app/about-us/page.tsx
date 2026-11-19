@@ -117,7 +117,7 @@ export default function AboutUsPage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-300 text-xs font-bold text-emerald-800 uppercase tracking-wide mb-4">
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
-              <span>Government Authorized RVSF Network under MoRTH MV Rules 2021</span>
+              <span>MoRTH MV Rules 2021 Compliant Vehicle Recycling</span>
             </div>
 
             <h1 className="font-heading font-extrabold text-3xl sm:text-5xl text-slate-900 tracking-tight leading-tight">
@@ -125,7 +125,7 @@ export default function AboutUsPage() {
             </h1>
 
             <p className="mt-5 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-              Mervoxa Ventures Private Limited is an authorized Registered Vehicle Scrapping Facility (RVSF) network 
+              Mervoxa Ventures Private Limited is a modern vehicle recycling and scrappage platform 
               engineered to eliminate legal risk for vehicle owners while pioneering zero-landfill circular economy 
               practices. We combine digital VAHAN 4.0 government integration, instant upfront bank payouts, and 
               industrial-grade depollution to provide a completely transparent and hassle-free vehicle scrappage experience.
@@ -164,7 +164,7 @@ export default function AboutUsPage() {
               <div className="relative h-80 sm:h-96 lg:h-[460px] rounded-3xl overflow-hidden border-2 border-emerald-100 shadow-sm bg-slate-100">
                 <Image
                   src="/images/hero-facility.jpg"
-                  alt="Mervoxa Authorised RVSF Industrial Facility"
+                  alt="Mervoxa Vehicle Recycling Facility"
                   fill
                   className="object-cover"
                   priority
@@ -173,7 +173,7 @@ export default function AboutUsPage() {
                 
                 <div className="absolute bottom-6 left-6 right-6 text-white">
                   <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-emerald-600/90 text-[10px] font-mono font-bold tracking-wider uppercase mb-2">
-                    Official RVSF Facility &bull; CPCB Certified
+                    Automotive Recycling Facility &bull; CPCB Certified
                   </div>
                   <h4 className="text-base sm:text-lg font-bold leading-snug">
                     State-of-the-Art Automotive Dismantling &amp; Depollution Infrastructure
@@ -221,7 +221,7 @@ export default function AboutUsPage() {
 
               <p className="text-sm text-slate-600 leading-relaxed font-normal">
                 <strong>MERVOXA VENTURES PRIVATE LIMITED</strong> was incorporated to solve this exact vulnerability. 
-                We operate as an authorized Registered Vehicle Scrapping Facility (RVSF) under the 
+                We facilitate vehicle recycling and legal de-registration under the 
                 <strong> Ministry of Road Transport and Highways (MoRTH) Motor Vehicles Rules 2021</strong>.
               </p>
 

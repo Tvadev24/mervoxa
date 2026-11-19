@@ -56,7 +56,7 @@ export default function Hero({ onCheckVehicle, onOpenQuoteModal }: HeroProps) {
 
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-300/80 text-[11px] font-bold text-emerald-800 tracking-wide uppercase">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
-              <span>MoRTH Authorised RVSF Network &bull; Pan-India</span>
+              <span>MoRTH Compliant Vehicle Scrapping &bull; Pan-India</span>
             </div>
 
             <h1 className="font-heading font-extrabold text-[32px] sm:text-5xl lg:text-[44px] text-slate-900 tracking-tight leading-[1.14]">
@@ -65,7 +65,7 @@ export default function Hero({ onCheckVehicle, onOpenQuoteModal }: HeroProps) {
             </h1>
 
             <p className="text-sm sm:text-[15px] text-slate-600 leading-relaxed max-w-xl">
-              Mervoxa operates a verified network of Registered Vehicle Scrapping Facilities (RVSFs) under MoRTH MV Rules 2021.
+              Mervoxa facilitates vehicle scrapping and recycling in accordance with MoRTH MV Rules 2021.
               Get instant VAHAN 4.0 CoD &amp; CVS certificates, 100% legal indemnity against vehicle misuse,
               and up to 25% road tax rebate on your next car purchase.
             </p>

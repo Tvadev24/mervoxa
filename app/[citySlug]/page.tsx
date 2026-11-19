@@ -88,17 +88,17 @@ export default function CityScrapPage({ params }: CityPageProps) {
             <div className="lg:col-span-7 space-y-4">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-300 text-xs font-bold text-emerald-800 uppercase tracking-wide">
                 <MapPin className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Authorised RVSF Yard Service &bull; {cityName}</span>
+                <span>Vehicle Scrapping Service &bull; {cityName}</span>
               </div>
 
               <h1 className="font-heading font-extrabold text-3xl sm:text-5xl text-slate-900 tracking-tight leading-tight">
-                Authorised {vehicleType} Scrap Facility in{' '}
+                Certified {vehicleType} Scrap Service in{' '}
                 <span className="text-[#10b981]">{cityName}</span>
               </h1>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl font-normal">
                 Looking to scrap your old {vehicleType.toLowerCase()} legally in {cityName}?
-                Mervoxa operates a verified Registered Vehicle Scrapping Facility network under MoRTH MV Rules 2021.
+                Mervoxa facilitates vehicle scrapping and recycling under MoRTH MV Rules 2021.
                 Get free doorstep flatbed towing in {cityName}, instant upfront IMPS bank payout, and official VAHAN CoD &amp; CVS certificates.
               </p>
 

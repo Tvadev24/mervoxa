@@ -15,9 +15,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'MERVOXA | Authorised Registered Vehicle Scrapping Facility (RVSF) Network',
+  title: 'MERVOXA | Vehicle Scrapping & Recycling Services',
   description:
-    'MoRTH-authorised vehicle scrapping and recycling network in India. Scrap your end-of-life car, bike, or commercial vehicle with 100% legal indemnity, upfront bank payment, and official VAHAN CoD & CVS certificates.',
+    'MoRTH-compliant vehicle scrapping and recycling services in India. Scrap your end-of-life car, bike, or commercial vehicle with 100% legal indemnity, upfront bank payment, and official VAHAN CoD & CVS certificates.',
   keywords: [
     'vehicle scrapping',
     'RVSF',

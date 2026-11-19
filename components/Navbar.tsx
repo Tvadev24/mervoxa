@@ -64,7 +64,7 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
           <div className="flex items-center gap-2">
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
             <span className="truncate text-[11px] sm:text-xs font-medium text-emerald-100">
-              Authorised RVSF Network under MoRTH MV Rules 2021 &bull; Direct VAHAN 4.0 CoD &amp; CVS Issuance
+              Vehicle Scrapping &amp; Recycling under MoRTH MV Rules 2021 &bull; Direct VAHAN 4.0 CoD &amp; CVS Issuance
             </span>
           </div>
           <div className="hidden md:flex items-center gap-5">

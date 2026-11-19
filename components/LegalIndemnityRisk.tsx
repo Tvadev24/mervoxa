@@ -77,7 +77,7 @@ export default function LegalIndemnityRisk() {
             <div className="hidden md:block md:col-span-4 text-emerald-800 text-xs uppercase tracking-wider">
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                MERVOXA Authorised RVSF Network
+                MERVOXA Vehicle Recycling Platform
               </span>
             </div>
           </div>
