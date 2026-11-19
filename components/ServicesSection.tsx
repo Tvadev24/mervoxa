@@ -58,35 +58,15 @@ export default function ServicesSection({ onSelectService }: ServicesProps) {
 
   return (
     <section id="services" className="py-16 md:py-20 bg-white relative overflow-hidden">
-      {/* Decorative Dotted Grid on Left & Right */}
-      <div className="absolute left-4 sm:left-8 top-16 hidden lg:block opacity-40 pointer-events-none">
-        <div className="grid grid-cols-4 gap-2.5">
-          {Array.from({ length: 24 }).map((_, i) => (
-            <span key={i} className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
-          ))}
-        </div>
-      </div>
-      <div className="absolute right-4 sm:right-8 top-16 hidden lg:block opacity-40 pointer-events-none">
-        <div className="grid grid-cols-4 gap-2.5">
-          {Array.from({ length: 24 }).map((_, i) => (
-            <span key={i} className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
-          ))}
-        </div>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* Section Header matching Mockup */}
+        {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 text-xs font-bold text-slate-800 uppercase tracking-widest mb-1.5">
-            <span className="w-2 h-2 rounded-full bg-emerald-600" />
-            <span className="font-heading font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight">
-              Our Services
-            </span>
-            <span className="w-2 h-2 rounded-full bg-emerald-600" />
-          </div>
+          <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight mb-2 uppercase">
+            Our Services
+          </h2>
           <p className="text-xs sm:text-sm text-slate-500 font-medium">
-            <span className="text-emerald-500 font-bold">&bull;&bull;</span> Comprehensive RVSF services to power legal vehicle recycling <span className="text-emerald-500 font-bold">&bull;&bull;</span>
+            Comprehensive vehicle scrappage and recycling services
           </p>
         </div>
 
