@@ -81,14 +81,6 @@ export default function Footer() {
               <Logo size="md" lightText={true} />
             </Link>
 
-            <p className="text-emerald-400 font-bold text-sm tracking-wide">
-              Greener India. Cleaner Tomorrow.
-            </p>
-
-            <p className="text-slate-300 text-xs leading-relaxed max-w-sm">
-              Mervoxa Ventures Private Limited is an authorized Registered Vehicle Scrapping Facility (RVSF) network operator under the Motor Vehicles Rules, 2021.
-            </p>
-
             <div className="pt-1 space-y-2 text-xs text-slate-300">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
@@ -206,7 +198,7 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/about-us" className="hover:text-emerald-400 transition-colors">
-                  About Mervoxa RVSF
+                  About Mervoxa
                 </Link>
               </li>
               <li>
@@ -221,7 +213,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/locations" className="hover:text-emerald-400 transition-colors">
-                  Pan-India RVSF Hubs
+                  Pan-India Collection Hubs
                 </Link>
               </li>
               <li>
@@ -277,7 +269,7 @@ export default function Footer() {
                   <ShieldCheck className="w-4 h-4 text-emerald-400" />
                   <span>Statutory Authority</span>
                 </div>
-                <span>Licensed RVSF under Ministry of Road Transport &amp; Highways (MoRTH) &bull; Live VAHAN 4.0 Digital Desk</span>
+                <span>MoRTH MV Rules 2021 Compliant &bull; Live VAHAN 4.0 Digital Desk</span>
               </div>
             </div>
           </div>
