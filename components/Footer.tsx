@@ -14,8 +14,6 @@ import {
   ShieldCheck,
   Phone,
   Mail,
-  Car,
-  Bike,
   FileCheck2,
   Building,
 } from 'lucide-react';
@@ -31,36 +29,6 @@ export default function Footer() {
       setEmail('');
     }
   };
-
-  const carCities = [
-    { name: 'Delhi', href: '/car-scrap-dealer-in-delhi' },
-    { name: 'Noida', href: '/authorised-car-scrap-dealers-in-noida' },
-    { name: 'Gurgaon', href: '/car-scrap-dealers-in-gurgaon' },
-    { name: 'Faridabad', href: '/car-scrap-dealers-in-faridabad' },
-    { name: 'Ghaziabad', href: '/car-scrap-dealers-in-ghaziabad' },
-    { name: 'Lucknow', href: '/car-scrap-dealers-in-lucknow' },
-    { name: 'Kanpur', href: '/car-scrap-dealers-in-kanpur' },
-    { name: 'Dehradun', href: '/car-scrap-dealers-in-dehradun' },
-    { name: 'Bengaluru', href: '/car-scrap-dealers-in-bangalore' },
-    { name: 'Jaipur', href: '/car-scrap-dealers-in-jaipur' },
-    { name: 'Agra', href: '/car-scrap-dealers-in-agra' },
-    { name: 'Meerut', href: '/car-scrap-dealers-in-meerut' },
-    { name: 'Roorkee', href: '/car-scrap-dealers-in-roorkee' },
-    { name: 'Haridwar', href: '/car-scrap-dealers-in-haridwar' },
-  ];
-
-  const bikeCities = [
-    { name: 'Delhi', href: '/scrap-bike-in-delhi' },
-    { name: 'Noida', href: '/bike-scrap-dealer-in-noida' },
-    { name: 'Gurgaon', href: '/bike-scrap-dealers-in-gurgaon' },
-    { name: 'Faridabad', href: '/bike-scrap-dealer-in-faridabad' },
-    { name: 'Ghaziabad', href: '/bike-scrap-dealer-in-ghaziabad' },
-    { name: 'Lucknow', href: '/bike-scrap-dealer-in-lucknow' },
-    { name: 'Kanpur', href: '/bike-scrap-dealer-in-kanpur' },
-    { name: 'Dehradun', href: '/bike-scrap-dealer-in-dehradun' },
-    { name: 'Bengaluru', href: '/bike-scrap-dealer-in-bangalore' },
-    { name: 'Jaipur', href: '/bike-scrap-dealer-in-jaipur' },
-  ];
 
   return (
     <footer className="bg-[#042621] border-t border-emerald-950/60 text-slate-300 text-xs">
@@ -276,47 +244,6 @@ export default function Footer() {
             </div>
           </div>
 
-        </div>
-
-        {/* Middle Section: Full Visible Categorized City Pages (Car Scrap & Bike Scrap) */}
-        <div className="py-8 border-b border-emerald-900/40 space-y-6">
-          {/* Car Scrap Cities Grid */}
-          <div>
-            <div className="font-heading font-bold text-xs uppercase tracking-wider text-emerald-300 mb-3 flex items-center gap-2">
-              <Car className="w-4 h-4 text-emerald-400" />
-              <span>Car Scrap Dealers by City:</span>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-2 text-[11px]">
-              {carCities.map((city) => (
-                <Link
-                  key={city.href}
-                  href={city.href}
-                  className="text-slate-400 hover:text-emerald-300 transition-colors py-0.5 truncate"
-                >
-                  Car Scrap {city.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* Bike Scrap Cities Grid */}
-          <div>
-            <div className="font-heading font-bold text-xs uppercase tracking-wider text-emerald-300 mb-3 flex items-center gap-2">
-              <Bike className="w-4 h-4 text-emerald-400" />
-              <span>Bike Scrap Dealers by City:</span>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 text-[11px]">
-              {bikeCities.map((city) => (
-                <Link
-                  key={city.href}
-                  href={city.href}
-                  className="text-slate-400 hover:text-emerald-300 transition-colors py-0.5 truncate"
-                >
-                  Bike Scrap {city.name}
-                </Link>
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* Sub-Footer Bar matching UI Theme */}
