@@ -180,7 +180,7 @@ export default function Hero({ onCheckVehicle, onOpenQuoteModal }: HeroProps) {
                     Free doorstep pickup
                   </div>
                   <div className="text-sm font-extrabold text-slate-900">
-                    Flatbed towing in 48 hrs
+                    Flatbed towing in 12 hrs
                   </div>
                 </div>
               </div>
