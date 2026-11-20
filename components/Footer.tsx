@@ -11,7 +11,6 @@ import {
   Linkedin,
   Youtube,
   MapPin,
-  ShieldCheck,
   Phone,
   Mail,
   FileCheck2,
@@ -224,16 +223,6 @@ export default function Footer() {
                 </div>
               )}
             </form>
-
-            <div className="pt-3">
-              <div className="p-3 rounded-2xl bg-emerald-950/40 border border-emerald-900/40 text-[11px] text-emerald-200">
-                <div className="flex items-center gap-1.5 font-bold text-white mb-1">
-                  <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                  <span>Statutory Authority</span>
-                </div>
-                <span>MoRTH MV Rules 2021 Compliant &bull; Live VAHAN 4.0 Digital Desk</span>
-              </div>
-            </div>
           </div>
 
         </div>
