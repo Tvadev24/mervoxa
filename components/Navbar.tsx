@@ -11,16 +11,7 @@ import {
   X,
   ChevronDown,
   Car,
-  Bike,
-  Truck,
-  Bus,
-  Building2,
-  FileCheck2,
-  FileText,
   Calculator,
-  BookOpen,
-  Users,
-  ShieldCheck,
   ArrowRight,
 } from 'lucide-react';
 
@@ -106,67 +97,37 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
                   </div>
                   <Link
                     href="/services#car"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Car className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Private Cars</div>
-                      <div className="text-[11px] text-slate-500">15yr Petrol &amp; 10yr Diesel NGT</div>
-                    </div>
+                    Private Cars
                   </Link>
 
                   <Link
                     href="/services#bike"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Bike className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Two-Wheelers &amp; Scooters</div>
-                      <div className="text-[11px] text-slate-500">Motorcycles, Scooters &amp; EVs</div>
-                    </div>
+                    Two-Wheelers &amp; Scooters
                   </Link>
 
                   <Link
                     href="/services#commercial"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Truck className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Commercial Taxis &amp; Fleets</div>
-                      <div className="text-[11px] text-slate-500">Yellow-Plate &amp; Permit Replacement</div>
-                    </div>
+                    Commercial Taxis &amp; Fleets
                   </Link>
 
                   <Link
                     href="/services#heavy"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Bus className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Heavy Trucks &amp; Buses</div>
-                      <div className="text-[11px] text-slate-500">Industrial Hydraulic Shearing</div>
-                    </div>
+                    Heavy Trucks &amp; Buses
                   </Link>
 
                   <Link
                     href="/services#corporate"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Building2 className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Corporate Fleets &amp; PSUs</div>
-                      <div className="text-[11px] text-slate-500">GST Invoice &amp; ESG Reports</div>
-                    </div>
+                    Corporate Fleets &amp; PSUs
                   </Link>
                 </div>
               )}
@@ -197,41 +158,23 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
                   </div>
                   <Link
                     href="/vehicle-scrapping-process"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <FileCheck2 className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">5-Step Process</div>
-                      <div className="text-[11px] text-slate-500">From Handover to VAHAN Closure</div>
-                    </div>
+                    5-Step Process
                   </Link>
 
                   <Link
                     href="/certificates"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <FileText className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">CoD &amp; CVS Certificates</div>
-                      <div className="text-[11px] text-slate-500">2 Official Documents Compared</div>
-                    </div>
+                    CoD &amp; CVS Certificates
                   </Link>
 
                   <Link
                     href="/calculator"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Calculator className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Scrap &amp; Tax Calculator</div>
-                      <div className="text-[11px] text-slate-500">Instant Estimate &amp; 25% Tax Rebate</div>
-                    </div>
+                    Scrap &amp; Tax Calculator
                   </Link>
                 </div>
               )}
@@ -272,54 +215,30 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
                   </div>
                   <Link
                     href="/about-us"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <ShieldCheck className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">About Mervoxa RVSF</div>
-                      <div className="text-[11px] text-slate-500">Government Authorization &amp; Story</div>
-                    </div>
+                    About Mervoxa RVSF
                   </Link>
 
                   <Link
                     href="/team"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Users className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Our Team &amp; RTO Desk</div>
-                      <div className="text-[11px] text-slate-500">Leadership, Engineers &amp; Officers</div>
-                    </div>
+                    Our Team &amp; RTO Desk
                   </Link>
 
                   <Link
                     href="/guides"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <BookOpen className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Policy &amp; Legal Guides</div>
-                      <div className="text-[11px] text-slate-500">NGT Rules, Lost RC &amp; Form 2B</div>
-                    </div>
+                    Policy &amp; Legal Guides
                   </Link>
 
                   <Link
                     href="/contact-us"
-                    className="p-2.5 rounded-lg hover:bg-emerald-50/50 flex items-start gap-3 transition-colors group"
+                    className="px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                      <Phone className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Contact &amp; Towing Desk</div>
-                      <div className="text-[11px] text-slate-500">Helpline Numbers &amp; Facilities</div>
-                    </div>
+                    Contact &amp; Towing Desk
                   </Link>
                 </div>
               )}

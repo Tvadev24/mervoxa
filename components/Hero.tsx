@@ -38,13 +38,6 @@ export default function Hero({ onCheckVehicle, onOpenQuoteModal }: HeroProps) {
       {/* ---------- Ambient background ---------- */}
       <div className="pointer-events-none absolute -top-32 -right-24 w-[620px] h-[620px] rounded-full bg-gradient-to-bl from-emerald-200/50 via-emerald-100/30 to-transparent blur-3xl" />
       <div className="pointer-events-none absolute -bottom-40 -left-32 w-[480px] h-[480px] rounded-full bg-gradient-to-tr from-emerald-100/50 to-transparent blur-3xl" />
-      <div
-        className="pointer-events-none absolute left-0 bottom-10 w-40 h-24 opacity-20 hidden lg:block"
-        style={{
-          backgroundImage: 'radial-gradient(#059669 1.1px, transparent 1.1px)',
-          backgroundSize: '13px 13px',
-        }}
-      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center pt-28 pb-16 lg:pt-32 lg:pb-16">
@@ -53,11 +46,6 @@ export default function Hero({ onCheckVehicle, onOpenQuoteModal }: HeroProps) {
               LEFT: Copy, Search Bar & Value Props
              ================================================ */}
           <div className="lg:col-span-6 space-y-5">
-
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-300/80 text-[11px] font-bold text-emerald-800 tracking-wide uppercase">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
-              <span>MoRTH Compliant Vehicle Scrapping &bull; Pan-India</span>
-            </div>
 
             <h1 className="font-heading font-extrabold text-[32px] sm:text-5xl lg:text-[44px] text-slate-900 tracking-tight leading-[1.14]">
               Scrap your old vehicle with{' '}
@@ -166,21 +154,6 @@ export default function Hero({ onCheckVehicle, onOpenQuoteModal }: HeroProps) {
                     <div className="w-3 h-3 rounded-full bg-emerald-400 text-emerald-950 flex items-center justify-center mt-1">
                       <Check className="w-2 h-2 stroke-[3.5]" />
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Floating trust chip */}
-              <div className="absolute -bottom-6 -left-3 sm:left-4 lg:-left-8 z-20 bg-white rounded-2xl shadow-[0_18px_40px_-18px_rgba(2,44,34,0.45)] ring-1 ring-slate-900/5 px-4 py-3 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center flex-shrink-0">
-                  <Truck className="w-5 h-5" />
-                </div>
-                <div className="leading-tight">
-                  <div className="text-[10px] font-semibold text-slate-500 uppercase tracking-wide">
-                    Free doorstep pickup
-                  </div>
-                  <div className="text-sm font-extrabold text-slate-900">
-                    Flatbed towing in 12 hrs
                   </div>
                 </div>
               </div>
